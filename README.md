@@ -7,7 +7,7 @@ The whole purpose of this software is to show the use of the rust language. This
 
 
 In this video I show how to use the Rust Graphing software that I made. It will describe how to run the program, what it does, and an explanation on the algorithm behind the graphing:    
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/1VeHSNo3iCk)
 
 # Development Environment
 
