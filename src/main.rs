@@ -119,16 +119,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
           print!(" curr_x:{}", cur_x);
           print!(" curr_y:{}", cur_y);
         if i == 1 || i == 2{
-            cur_x = (cur_x + 0.8) / 2.2;
-            cur_y =  (cur_y + 0.8) / 2.2;
+            cur_x = (cur_x + 0.8) / 2.0;
+            cur_y =  (cur_y + 0.8) / 2.0;
         }
         else if i == 3 || i == 4{
-            cur_x = (cur_x + 0.525) / 2.2;
-            cur_y =  (cur_y + 0.30) / 2.2;
+            cur_x = (cur_x + 0.525) / 2.0;
+            cur_y =  (cur_y + 0.30) / 2.0;
         }
         else if i == 5 || i == 6{
-            cur_x = (cur_x + 0.25) / 2.2;
-            cur_y =  (cur_y + 0.80) / 2.2;
+            cur_x = (cur_x + 0.25) / 2.0;
+            cur_y =  (cur_y + 0.80) / 2.0;
         }
         //print!(",");
         root.draw(&dot_only(cur_x, cur_y))?;
